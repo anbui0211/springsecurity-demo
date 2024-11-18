@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: spring-security-demo
+
+# Mặc địng, có thể config tại đây để login
+#  security:
+#    user:
+#      password: root
+#      name: root
+#      roles:  # multiple roles
+#        - admin
+#        - user
+
+server:
+  port: 9966
+
+# Config để xem log debug (xem thông tin user login)
+logging:
+  level:
+    org.springframework.security: DEBUG
